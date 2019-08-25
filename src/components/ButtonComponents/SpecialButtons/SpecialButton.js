@@ -1,10 +1,11 @@
 import React from "react";
 
-const SpecialButton = (props) => {
+const SpecialButton = props => {
+  console.log("specials", props);
   return (
     <>
       {/* Display a button element rendering the data being passed down from the parent container on props */}
-      <button onClick={() => props.addNumber(props.text)}></button>
+      <button>{props.text}</button>
     </>
   );
 };
