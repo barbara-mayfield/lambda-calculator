@@ -24,10 +24,21 @@ function App(props) {
       <Logo />
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
+        <div className="disp">
         <Display />
-        <Numbers />
-        <Operators />
-        <Specials />
+        </div>
+
+
+        <div className="calc">
+          <Specials />
+          <div className="nums">
+            <Numbers className="nums" />
+          </div>
+        </div>
+
+          <div className="ops">
+            <Operators />
+          </div>
       </div>
     </div>
   );
