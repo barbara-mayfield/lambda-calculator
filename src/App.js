@@ -30,7 +30,6 @@ function App(props) {
     }
   };
 
-
   return (
     <div className="container">
       <Logo />
