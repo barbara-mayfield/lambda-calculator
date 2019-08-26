@@ -28,6 +28,10 @@ img {
     color: white;
 }
 
+.display{
+    margin: 0;
+}
+
 .calc {
     width:30rem;
 }
