@@ -8,7 +8,7 @@ import { numbers } from "../../../data";
 
 const Numbers = (props) => {
   // STEP 2 - add the imported data to state
-  const [numberState, setNumberState] = useState(numbers);
+  const [numberState] = useState(numbers);
   console.log("Numbers", props);
 
   return (
